@@ -19,7 +19,7 @@ button.addEventListener("click", function(){
 
 document.getElementById("name-surname").innerText = name;
 document.getElementById("km-inserted").innerText = km;
-document.getElementById("price").innerText = `${price.toFixed(2)}€`;
+document.getElementById("price").innerText = `${price} €`;
 
 });
 
@@ -31,4 +31,5 @@ reset_button.addEventListener("click", function(){
     document.getElementById("name-surname").innerText = "";
     document.getElementById("km-inserted").innerText = "";
     document.getElementById("price").innerText = ``;
+    
 });
